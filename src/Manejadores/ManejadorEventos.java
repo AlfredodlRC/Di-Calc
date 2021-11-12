@@ -28,11 +28,11 @@ public class ManejadorEventos implements ActionListener {
 	@Override
 	public void actionPerformed(ActionEvent e) {
 
-		if (e.getSource() == ventana.getAnchoBorde1()) { ponerBorder(1); }
-		if (e.getSource() == ventana.getAnchoBorde10()) { ponerBorder(10); }
-		if (e.getSource() == ventana.getAnchoBorde20()) { ponerBorder(20); }
-		if (e.getSource() == ventana.getAnchoBorde30()) { ponerBorder(30); }
-		if (e.getSource() == ventana.getAnchoBorde40()) { ponerBorder(40); }
+//		if (e.getSource() == ventana.getAnchoBorde1()) { ponerBorder(1); }
+//		if (e.getSource() == ventana.getAnchoBorde10()) { ponerBorder(10); }
+//		if (e.getSource() == ventana.getAnchoBorde20()) { ponerBorder(20); }
+//		if (e.getSource() == ventana.getAnchoBorde30()) { ponerBorder(30); }
+//		if (e.getSource() == ventana.getAnchoBorde40()) { ponerBorder(40); }
 		//-------------------------------------------------------------------------------------------
 		if (e.getSource() == ventana.getBtnSuma()) { suma(); }		
 		if (e.getSource() == ventana.getBtnResta()) { resta(); }

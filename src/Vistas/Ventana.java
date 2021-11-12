@@ -39,6 +39,7 @@ public class Ventana extends JFrame {
 	JLabel lblEtqResultado;
 	JTextField TFResultado;
 	
+	/*
 	JMenuBar menu;
 	JMenu menuBordes;
 	JMenuItem AnchoBorde1;
@@ -46,6 +47,7 @@ public class Ventana extends JFrame {
 	JMenuItem AnchoBorde20;
 	JMenuItem AnchoBorde30;
 	JMenuItem AnchoBorde40;
+	*/
 	
 	
 
@@ -72,7 +74,7 @@ public class Ventana extends JFrame {
 	public JTextField getTFResultado() {
 		return TFResultado;
 	}
-
+/*
 	public JMenuBar getMenu() {
 		return menu;
 	}
@@ -96,7 +98,7 @@ public class Ventana extends JFrame {
 	public JMenuItem getAnchoBorde40() {
 		return AnchoBorde40;
 	}
-
+*/
 	public JTextField getTFNumero1() {
 		return TFNumero1;
 	}
@@ -251,7 +253,7 @@ public class Ventana extends JFrame {
 		add(TFResultado);
 
 
-		
+		/*
 		menu = new JMenuBar();
 		menuBordes = new JMenu("Bordes Botones");
 		
@@ -285,7 +287,7 @@ public class Ventana extends JFrame {
 		
 		menu.setBounds(0,0,500,20);
 		add(menu);
-		
+*/		
 		
 	}
 
